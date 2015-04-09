@@ -12,7 +12,7 @@ Kaggle provide two datasets, a training and a test set, that contain identical v
 has approximately twice as many observations as the test. A complete list of the variables provided by Kaggle 
 is listed below:
 
-'''
+```
 VARIABLE DESCRIPTIONS:
 survival        Survival
                 (0 = No; 1 = Yes)
@@ -28,5 +28,5 @@ fare            Passenger Fare
 cabin           Cabin
 embarked        Port of Embarkation
                 (C = Cherbourg; Q = Queenstown; S = Southampton)
-'''
+```
 
