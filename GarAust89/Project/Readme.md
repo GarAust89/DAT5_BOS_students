@@ -9,7 +9,7 @@ a policy of saving the women and children and therefore we can expect the female
 signficantly higher than that for men over a certain age.
 
 
-### Data Description
+### Data Description and Preprocessing
 
 Kaggle provide two datasets, a training and a test set, that contain identical variables. The training set 
 has approximately twice as many observations as the test. A complete list of the variables provided by Kaggle 
@@ -33,6 +33,8 @@ embarked        Port of Embarkation
                 (C = Cherbourg; Q = Queenstown; S = Southampton)
 ```
 
+#### EDA of the training Data
+
 I began by conducted some preliminary examination into the training dataset. As mentioned earlier, I suspected 
 that Male survival ratge would be signficantly lower than Female survival rate. In the mosaic plot below we can
 see that this is indeed the case.
@@ -48,4 +50,12 @@ kind of wealth (there were no Mark Zuckerberg's in 1912). The below image is a c
 
 ![TitanicCrossSection](https://github.com/GarAust89/DAT5_BOS_students/blob/master/GarAust89/Project/Plots/TitanicCrossSection.jpg)
 
-In this image, we can see that the upper levels of the ship are for 1st Class Passengers, followed by 2nd Class Passengers in the middle and 3rd Class Passengers are located deeper in the ship. Therefore, while Passengers in 1st Class are probably older than Passengers in other classes, they are also located closer to the lifeboats and therefore are more likely to reach them first and escape the sinking ship. 
+In this image, we can see that the upper levels of the ship are for 1st Class Passengers, followed by 2nd Class 
+Passengers in the middle and 3rd Class Passengers are located deeper in the ship. Therefore, while Passengers in
+1st Class are probably older than Passengers in other classes, they are also located closer to the lifeboats 
+and therefore are more likely to reach them first and escape the sinking ship. 
+
+![SurvivalRateByClass](https://github.com/GarAust89/DAT5_BOS_students/blob/master/GarAust89/Project/Plots/SurvivalRateByClass.png)
+
+Looking at the above Mosaic Plot we can indeed see that proximity to the lifeboats seems to have a direct impact 
+on a passengers likelihood to survive. 
